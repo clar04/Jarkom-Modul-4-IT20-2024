@@ -467,9 +467,113 @@ iface eth0 inet static
 ### Script Node
 ####
 ```
+#SUMATERA
+route add -net 192.243.21.180 netmask 255.255.255.252 gw 192.243.21.178
+route add -net 192.243.19.0 netmask 255.255.255.0 gw 192.243.21.178
+route add -net 192.243.21.64 netmask 255.255.255.224 gw 192.243.21.178
+route add -net 192.243.21.184 netmask 255.255.255.252 gw 192.243.21.178
+route add -net 192.243.20.0 netmask 255.255.255.128 gw 192.243.21.178
+route add -net 192.243.21.128 netmask 255.255.255.224 gw 192.243.21.178
+
+#KALIMANTAN
+route add -net 192.243.21.192 netmask 255.255.255.252 gw 192.243.21.190
+route add -net 192.243.18.0 netmask 255.255.255.0 gw 192.243.21.190
+route add -net 192.243.21.196 netmask 255.255.255.252 gw 192.243.21.190
+route add -net 192.243.16.0 netmask 255.255.254.0 gw 192.243.21.190
+route add -net 192.243.21.200 netmask 255.255.255.252 gw 192.243.21.190
+route add -net 192.243.21.96 netmask 255.255.255.224 gw 192.243.21.190
+route add -net 192.243.0.0 netmask 255.255.248.0 gw 192.243.21.190
+
+#SULAWESI
+route add -net 192.243.21.160 netmask 255.255.255.248 gw 192.243.21.206
+route add -net 192.243.21.168 netmask 255.255.255.248 gw 192.243.21.206
+route add -net 192.243.21.0 netmask 255.255.255.192 gw 192.243.21.206
+route add -net 192.243.20.128 netmask 255.255.255.128 gw 192.243.21.206
+route add -net 192.243.8.0 netmask 255.255.248.0 gw 192.243.21.206
 ```
-### Dokumentasi 
-#### GNS3 VLSM
+#### SUMATERA
+```
+#JAWA
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.243.21.177
+
+#SUMATERA-UTARA
+route add -net 192.243.21.184 netmask 255.255.255.252 gw 192.243.21.68
+route add -net 192.243.20.0 netmask 255.255.255.128 gw 192.243.21.68
+route add -net 192.243.21.128 netmask 255.255.255.224 gw 192.243.21.68
+
+#LAMPUNG
+route add -net 192.243.19.0 netmask 255.255.255.0 gw 192.243.21.182
+```
+#### KALIMANTAN
+```
+route add -net 192.243.18.0 netmask 255.255.255.0 gw 192.243.21.194
+route add -net 192.243.21.196 netmask 255.255.255.252 gw 192.243.21.194
+route add -net 192.243.16.0 netmask 255.255.254.0 gw 192.243.21.194
+route add -net 192.243.21.200 netmask 255.255.255.252 gw 192.243.21.194
+route add -net 192.243.21.96 netmask 255.255.255.224 gw 192.243.21.194
+route add -net 192.243.0.0 netmask 255.255.248.0 gw 192.243.21.194
+```
+#### SULAWESI
+```
+#MALUKU-UTARA
+route add -net 192.243.8.0 netmask 255.255.248.0 gw 192.243.20.130
+
+#MAKASAR
+route add -net 192.243.21.168 netmask 255.255.255.248 gw 192.243.21.162
+
+#BELAWA
+route add -net 192.243.21.0 netmask 255.255.255.192 gw 192.243.21.163
+```
+#### SUMATERA-UTARA
+```
+#SW-BLANGKARAI
+route add -net 192.243.20.0 netmask 255.255.255.128 gw 192.243.21.186
+#SW-BANDA-ACEH
+route add -net 192.243.21.128 netmask 255.255.255.224 gw 192.243.21.186 
+```
+#### LAMPUNG
+```
+#SUMATERA
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.243.21.181
+```
+#### KALIMANTAN-UTARA
+```
+route add -net 192.243.16.0 netmask 255.255.254.0 gw 192.243.21.198
+route add -net 192.243.21.200 netmask 255.255.255.252 gw 192.243.21.198
+route add -net 192.243.21.96 netmask 255.255.255.224 gw 192.243.21.198
+route add -net 192.243.0.0 netmask 255.255.248.0 gw 192.243.21.198
+```
+#### MAKASAR
+```
+#SULAWESI
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.243.21.161
+```
+#### BELAWA 
+```
+#SULAWESI
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.243.21.161
+```
+#### MALUKU-UTARA
+```
+#SULAWESI
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.243.20.129
+```
+#### ACEH
+```
+#SUMATERA UTARA
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.243.21.185 
+```
+#### KALIMANTAN-TIMUR
+```
+route add -net 192.243.21.96 netmask 255.255.255.224 gw 192.243.21.202
+route add -net 192.243.0.0 netmask 255.255.248.0 gw 192.243.21.202
+```
+#### KALIMANTAN-SELATAN
+```
+#KALIMANTAN-TIMUR
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 192.243.21.201
+```
+### Dokumentasi GNS3 VLSM
 Kalimantan Selatan ke Aceh
 
 <img width="502" alt="image" src="https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/123356941/dd393ffc-7041-4a80-bf8a-cf2ae6e53844">
@@ -510,6 +614,10 @@ Starland ke Ternate
 
 <img width="497" alt="image" src="https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/123356941/c86562fb-e09b-4a1e-b6d9-b91c457a6a56">
 
+
+
+
+## CPT CIDR
 
 
 

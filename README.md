@@ -1,4 +1,11 @@
 # Jarkom-Modul-4-IT20-2024
+
+**Kelompok IT20**
+| Nama | NRP |
+|-----------------------|--------------|
+| Clara Valentina | 5027221016 |
+| Muhammad Arsy Athallah| 5027221048 |
+
 ## GNS3 VLSM
 ### Topologi dan subnetting
 
@@ -8,6 +15,287 @@
 
 <img width="1096" alt="image" src="https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/123356941/d1259b11-b42c-4b37-95de-1c94e7d37a99">
 Tree lebih detail : (https://drive.google.com/file/d/1lXM2dagMoluTJhxWGsED0R034WWuOEiG/view?usp=sharing)
+
+### Konfigurasi Router
+#### JAWA (A1 - A8 - A16) 
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+    address 192.243.21.177
+    netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+    address 192.243.21.189
+    netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+    address 192.243.21.205
+    netmask 255.255.255.252
+```
+#### SUMATERA ( A1 - A2 - A4 )
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 192.243.21.178
+    netmask 255.255.255.252
+    gateway 192.243.21.177
+
+auto eth1
+iface eth1 inet static
+    address 192.243.21.181
+    netmask 255.255.255.252
+
+auto eth2
+iface eth2 inet static
+    address 192.243.21.65
+    netmask 255.255.255.224
+```
+#### LAMPUNG ( A2 - A3 )
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 192.243.21.182
+    netmask 255.255.255.252
+    gateway 192.243.21.181
+
+auto eth1
+iface eth1 inet static
+    address 192.243.19.1
+    netmask 255.255.255.0
+
+```
+#### Sebuku (A3)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.19.2
+    netmask 255.255.255.0
+    gateway 192.243.19.1
+```
+#### Sebesi (A3)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.19.3
+    netmask 255.255.255.0
+    gateway 192.243.19.1
+```
+#### Sibandang (A4)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.21.66
+    netmask 255.255.255.224
+    gateway 192.243.21.65
+```
+#### Samosir (A4)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.21.67
+    netmask 255.255.255.224
+    gateway 192.243.21.65
+```
+#### SUMATERA-UTARA (A4 - A5)
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 192.243.21.68
+    netmask 255.255.255.224
+    gateway 192.243.21.65
+
+auto eth1
+iface eth1 inet static
+    address 192.243.21.185
+    netmask 255.255.255.252
+```
+#### ACEH ( A5 - A6 - A7 )
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 192.243.21.186
+    netmask 255.255.255.252
+    gateway 192.243.21.185
+
+auto eth1
+iface eth1 inet static
+    address 192.243.20.1
+    netmask 255.255.255.128
+
+auto eth2
+iface eth2 inet static
+    address 192.243.21.129
+```
+#### Berawang-Tampu (A6)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.20.2
+    netmask 255.255.255.128
+    gateway 192.243.20.1
+```
+#### Enang-Enang (A6)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.20.3
+    netmask 255.255.255.128
+    gateway 192.243.20.1
+```
+#### Starland (A6)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.20.4
+    netmask 255.255.255.128
+    gateway 192.243.20.1
+```
+#### Sabang (A7)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.21.130
+    netmask 255.255.255.224
+    gateway 192.243.21.129
+```
+#### Lambaro (A7)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.21.131
+    netmask 255.255.255.224
+    gateway 192.243.21.129
+```
+#### KALIMANTAN ( A8 - A9 )
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 192.243.21.190
+    netmask 255.255.255.252
+    gateway 192.243.21.189
+
+auto eth1
+iface eth1 inet static
+    address 192.243.21.193
+    netmask 255.255.255.252
+```
+#### KALIMANTAN-UTARA ( A9- A10 - A11)
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 192.243.21.194
+    netmask 255.255.255.252
+    gateway 192.243.21.193
+
+auto eth1
+iface eth1 inet static
+    address 192.243.18.1
+    netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+    address 192.243.21.197
+    netmask 255.255.255.252
+```
+#### Selimau (A10)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.18.2
+    netmask 255.255.255.0
+    gateway 192.243.18.1
+```
+#### KALIMANTAN-TIMUR (A11-A12-A13)
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 192.243.21.198
+    netmask 255.255.255.252
+    gateway 192.243.21.197
+
+auto eth1
+iface eth1 inet static
+    address 192.243.16.1
+    netmask 255.255.254.0
+
+auto eth2
+iface eth2 inet static
+    address 192.243.21.201
+    netmask 255.255.255.252
+```
+#### Bangkirai (A12)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.16.2
+    netmask 255.255.254.0
+    gateway 192.243.16.1
+```
+#### Lamaru (A12)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.16.3
+    netmask 255.255.254.0
+    gateway 192.243.16.1
+```
+####
+```
+```
+####
+```
+```
+####
+```
+```
+####
+```
+```
+####
+```
+```
+####
+```
+```
+####
+```
+```
+####
+```
+```
+####
+```
+```
+### Script Node
 
 ### Dokumentasi 
 #### GNS3 VLSM

@@ -1,9 +1,13 @@
 # Jarkom-Modul-4-IT20-2024
 ## GNS3 VLSM
-Topologi dan subnetting
+### Topologi dan subnetting
 
 <img width="952" alt="image" src="https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/123356941/539efe00-62dd-4209-b948-a7b26f04bee0">
 
+### Tree VLSM
+
+<img width="1096" alt="image" src="https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/123356941/d1259b11-b42c-4b37-95de-1c94e7d37a99">
+[Link tree](https://drive.google.com/file/d/1lXM2dagMoluTJhxWGsED0R034WWuOEiG/view?usp=sharing)
 
 ### Dokumentasi 
 #### GNS3 VLSM

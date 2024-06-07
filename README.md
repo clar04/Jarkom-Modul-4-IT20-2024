@@ -268,35 +268,206 @@ iface eth0 inet static
     netmask 255.255.254.0
     gateway 192.243.16.1
 ```
-####
+#### KALIMANTAN-SELATAN (A13-A14-A15)
 ```
-```
-####
-```
-```
-####
-```
-```
-####
-```
-```
-####
-```
-```
-####
-```
-```
-####
-```
-```
-####
-```
-```
-####
-```
-```
-### Script Node
+auto lo
+iface lo inet loopback
 
+auto eth0
+iface eth0 inet static
+    address 192.243.21.202
+    netmask 255.255.255.252
+    gateway 192.243.21.201
+
+auto eth1
+iface eth1 inet static
+    address 192.243.21.97
+    netmask 255.255.255.224
+
+auto eth2
+iface eth2 inet static
+    address 192.243.0.1
+    netmask 255.255.248.0
+```
+#### Angsana (A14)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.21.98
+    netmask 255.255.255.224
+    gateway 192.243.21.97
+```
+#### Bajuin (A15)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.0.2
+    netmask 255.255.248.0
+    gateway 192.243.0.1
+```
+#### Takisung (A15)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.0.3
+    netmask 255.255.248.0
+    gateway 192.243.0.1
+```
+#### Batakan (A15)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.0.4
+    netmask 255.255.248.0
+    gateway 192.243.0.1
+```
+#### SULAWESI (A16-A17-A20)
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 192.243.21.206
+    netmask 255.255.255.252
+    gateway 192.243.21.205
+
+auto eth1
+iface eth1 inet static
+    address 192.243.21.161
+    netmask 255.255.255.248
+
+auto eth2
+iface eth2 inet static
+    address 192.243.20.129
+    netmask 255.255.255.128
+```
+#### MAKASAR (A17-A18)
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 192.243.21.162
+    netmask 255.255.255.248
+    gateway 192.243.21.161
+
+auto eth1
+iface eth1 inet static
+    address 192.243.21.169
+    netmask 255.255.255.248
+```
+#### Topejawa-Takalar (A18)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.21.170
+    netmask 255.255.255.248
+    gateway 192.243.21.169
+```
+#### Galesong (A18)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.21.170
+    netmask 255.255.255.248
+    gateway 192.243.21.169
+```
+#### BELAWA (A17-A19)
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 192.243.21.163
+    netmask 255.255.255.248
+    gateway 192.243.21.161
+
+auto eth1
+iface eth1 inet static
+    address 192.243.21.1
+    netmask 255.255.255.192
+```
+#### Baru (A19)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.21.2
+    netmask 255.255.255.192
+    gateway 192.243.21.1
+```
+#### Madini (A19)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.21.3
+    netmask 255.255.255.192
+    gateway 192.243.21.1
+```
+#### Marisa (A20)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.20.132
+    netmask 255.255.255.128
+    gateway 192.243.20.129
+```
+#### Gorontalo (A20)
+```
+#A20 > SULAWESI
+auto eth0
+iface eth0 inet static
+    address 192.243.20.131
+    netmask 255.255.255.128
+    gateway 192.243.20.129
+```
+#### MALUKU-UTARA (A20-A21)
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address 192.243.20.130
+    netmask 255.255.255.128
+    gateway 192.243.20.129
+
+auto eth1
+iface eth1 inet static
+    address 192.243.8.1
+    netmask 255.255.248.0
+``` 
+#### Ternate (A21)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.8.2
+    netmask 255.255.248.0
+    gateway 192.243.8.1
+```
+#### Morotai (A21)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.8.3
+    netmask 255.255.248.0
+    gateway 192.243.8.1
+```
+#### Tobeto (A21)
+```
+auto eth0
+iface eth0 inet static
+    address 192.243.8.4
+    netmask 255.255.248.0
+    gateway 192.243.8.1
+```
+
+### Script Node
+####
+```
+```
 ### Dokumentasi 
 #### GNS3 VLSM
 Kalimantan Selatan ke Aceh

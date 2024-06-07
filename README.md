@@ -1,5 +1,10 @@
 # Jarkom-Modul-4-IT20-2024
 ## GNS3 VLSM
+Topologi dan subnetting
+
+<img width="952" alt="image" src="https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/123356941/539efe00-62dd-4209-b948-a7b26f04bee0">
+
+
 ### Dokumentasi 
 #### GNS3 VLSM
 Kalimantan Selatan ke Aceh

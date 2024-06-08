@@ -671,6 +671,26 @@ I: Pink
 ### Node I
 ![image](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/2014f99d-ade4-4719-8078-7ca4fc293fa9)
 
+### Tree
+![tree cidr](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/a04f347a-ed15-4653-a9b1-55bd7ad6e894)
+
+### Pembagian IP
+
+![image](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/d6dead71-22bf-4a59-9cbf-19dbbcd4e1b4)
+
+### Routing
+
+### Samosir ke Lamaru dan Sebaliknya
+
+### Sabang ke Belawa dan Sebaliknya
+
+### Sulawesi ke Sebuku dan Sebaliknya
+
+### Aceh ke Kalimantan Selatan dan Sebaliknya
+
+
+
+
 
 
 

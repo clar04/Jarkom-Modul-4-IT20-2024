@@ -680,15 +680,10 @@ I: Pink
 
 ### Routing
 
-### Samosir ke Lamaru dan Sebaliknya
-
-### Sabang ke Belawa dan Sebaliknya
-
-### Sulawesi ke Sebuku dan Sebaliknya
-
-### Aceh ke Kalimantan Selatan dan Sebaliknya
 
 
+
+![routing cidr](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/bbf10e26-8be9-494e-9a29-5102b1db3963)
 
 
 

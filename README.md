@@ -624,6 +624,24 @@ Starland ke Ternate
 **Kondisi Node Awal**
 <img width="1316" alt="topo4" src="https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/24c74394-a138-4166-9924-cb2a8c78c249">
 
+![image](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/d57ee4db-5117-4c53-a6f9-963b8ff91c78)
+
+### Penggabungan Node
+![TOPO4 GROUPING_page-0001](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/acef2932-33f6-487b-a38a-65f00aa5671c)
+
+A: Hitam
+B: Merah
+C: Hijau
+D: Biru
+E: Oren
+F: Ungu
+G: Cyan
+H: Kuning
+I: Pink
+
+
+
+
 
 
 

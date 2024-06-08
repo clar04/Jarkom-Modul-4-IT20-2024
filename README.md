@@ -647,6 +647,36 @@ H: Kuning
 
 I: Pink
 
+### Node B
+![image](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/130a8aa2-987b-4eb0-97f6-5c1a761669d1)
+
+### Node C
+![image](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/98b9f8b6-f5ef-4eb3-931c-b8d4147d08d4)
+
+### Node D
+![image](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/e8b7c1e4-f77c-4c3c-bfdc-755dc2d7d949)
+
+### Node E
+![image](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/9850ea6a-3356-48fc-b24f-e1272c7a4bbb)
+
+### Node F
+![image](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/9e4ce6e8-7c9c-42a8-bfc0-aa8f7052edea)
+
+### Node G
+![image](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/f37f72da-bfff-4cd8-a000-28c03ab454d4)
+
+### Node H
+![image](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/7d3ac826-6c73-45e3-997d-28b9d895fe89)
+
+### Node I
+![image](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/2014f99d-ade4-4719-8078-7ca4fc293fa9)
+
+
+
+
+
+
+
 
 
 

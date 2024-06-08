@@ -619,6 +619,11 @@ Starland ke Ternate
 
 ## CPT CIDR
 
+### Penggabungan Ip
+
+**Kondisi Node Awal**
+<img width="1316" alt="topo4" src="https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/24c74394-a138-4166-9924-cb2a8c78c249">
+
 
 
 

@@ -630,13 +630,21 @@ Starland ke Ternate
 ![TOPO4 GROUPING_page-0001](https://github.com/clar04/Jarkom-Modul-4-IT20-2024/assets/128389289/acef2932-33f6-487b-a38a-65f00aa5671c)
 
 A: Hitam
+
 B: Merah
+
 C: Hijau
+
 D: Biru
+
 E: Oren
+
 F: Ungu
+
 G: Cyan
+
 H: Kuning
+
 I: Pink
 
 
